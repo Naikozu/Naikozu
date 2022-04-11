@@ -1,5 +1,3 @@
--- Made By:ProDupers
-
 local DupeGui = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
@@ -7,8 +5,6 @@ local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 local Frame_2 = Instance.new("ImageLabel")
 local Start = Instance.new("TextButton")
-
---Properties:
 
 DupeGui.Name = "DupeGui"
 DupeGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
